@@ -1,7 +1,6 @@
 class Ecko < Formula
   desc "AI-native scripting language in one batteries-included binary"
   homepage "https://ecko.sh"
-  version "0.12.0"
   license "MIT"
 
   # Apple Silicon only. Intel macOS is deliberately not shipped: the macos-13
