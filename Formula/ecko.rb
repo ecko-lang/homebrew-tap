@@ -13,7 +13,7 @@ class Ecko < Formula
   on_macos do
     on_arm do
       url "https://ecko.sh/dl/v0.18.0/ecko-aarch64-macos.tar.gz"
-      sha256 "28b662c48c40b918ef4e5e45efb3baf2a0ae601df94e45a5be6d070aff46bbe0"
+      sha256 "68e0360fe7943c0867fcad95d1cbc65e3d00c5c765a7762d5495f5f8c635d741"
     end
     on_intel do
       odie "Ecko does not ship an Intel macOS build. Apple Silicon only."
