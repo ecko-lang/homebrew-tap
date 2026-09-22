@@ -12,8 +12,8 @@ class Ecko < Formula
   # runner is retired, and an arm64 binary cannot run on an Intel Mac.
   on_macos do
     on_arm do
-      url "https://ecko.sh/dl/v0.38.0/ecko-aarch64-macos.tar.gz"
-      sha256 "95e5b7e6e8fadf2717df844f4fa223c32bb3d2c58ea3bb86381d3e5db52a8088"
+      url "https://ecko.sh/dl/v0.39.0/ecko-aarch64-macos.tar.gz"
+      sha256 "45e8c3d23d1eaa1be90842d67d897d978e5bcecfd8fabdd1d37ec0d1112baa1f"
     end
     on_intel do
       odie "Ecko does not ship an Intel macOS build. Apple Silicon only."
