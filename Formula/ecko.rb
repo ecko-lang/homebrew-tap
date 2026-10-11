@@ -1,9 +1,9 @@
 class Ecko < Formula
   desc "AI-native scripting language in one batteries-included binary"
   homepage "https://ecko.sh"
-  # Ecko is proprietary and has no SPDX identifier - free for personal,
-  # educational and evaluation use, commercial licence for business use.
-  # See https://ecko.sh/enterprise. This said "MIT" until 2026-08-29, which
+  # Ecko is proprietary and has no SPDX identifier - free for any use,
+  # personal or commercial, since 2026-10-11. See https://ecko.sh/legal/eula.
+  # This said "MIT" until 2026-08-29, which
   # was wrong: `brew info` asserted an open-source licence for software whose
   # LICENSE file states it is not open source.
   license :cannot_represent
@@ -37,8 +37,7 @@ class Ecko < Formula
       First program:    https://ecko.sh/docs/start/first-program
       Browser sandbox:  https://ecko.sh/play
 
-      Ecko is free for personal, educational and evaluation
-      use. Business use needs a license: ecko.sh/enterprise
+      Ecko is free for any use, personal or commercial.
     EOS
   end
 
